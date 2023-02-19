@@ -12,7 +12,7 @@ import Youtube from "../../public/assets/Icon/youtube.svg";
 import Home from "../../public/assets/Icon/home.svg";
 import About from "../../public/assets/Icon/about.svg";
 import Games from "../../public/assets/Icon/game.svg";
-import Testimonial from "../../public/assets/Icon/Testimonial.svg";
+import Testimonial from "../../public/assets/Icon/testimonial.svg";
 
 const Header = () => {
   const [activeLink, setActiveLink] = useState(null);
