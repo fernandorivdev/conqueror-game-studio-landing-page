@@ -7,7 +7,7 @@ import LogoHeader from "../../public/assets/Logo.svg";
 import Facebook from "../../public/assets/Icon/facebook.svg";
 import Twitter from "../../public/assets/Icon/twitter.svg";
 import Instagram from "../../public/assets/Icon/instagram.svg";
-import Tiktok from "../../public/assets/Icon/Tiktok.svg";
+
 import Youtube from "../../public/assets/Icon/youtube.svg";
 import Home from "../../public/assets/Icon/home.svg";
 import About from "../../public/assets/Icon/about.svg";
@@ -123,9 +123,7 @@ const Header = () => {
               <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
                 <Instagram className="h-6 w-6" />
               </div>
-              <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
-                <Tiktok className="h-6 w-6" />
-              </div>
+             
               <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
                 <Youtube className="h-6 w-6" />
               </div>
