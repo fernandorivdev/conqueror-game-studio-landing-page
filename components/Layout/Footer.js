@@ -1,10 +1,6 @@
 import React from "react";
 import Logo from "../../public/assets/Logo.svg";
-import Facebook from "../../public/assets/Icon/facebook.svg";
-import Twitter from "../../public/assets/Icon/twitter.svg";
-import Instagram from "../../public/assets/Icon/instagram.svg";
-import Tiktok from "../../public/assets/Icon/tiktok.svg";
-import Youtube from "../../public/assets/Icon/youtube.svg";
+
 const Footer = () => {
   return (
     <div className="bg-white-300 pt-36 pb-24">
@@ -18,23 +14,7 @@ const Footer = () => {
           <p className="mb-4">
             <strong className="font-medium">Conqueror Game Studio</strong> is an Indie Startup that is developing games of different genres, that are entertaining and fun for casual and the most demanding gamers.
           </p>
-          <div className="flex w-full mt-2 mb-8 -mx-2">
-            <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
-              <Facebook className="h-6 w-6" />
-            </div>
-            <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
-              <Twitter className="h-6 w-6" />
-            </div>
-            <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
-              <Instagram className="h-6 w-6" />
-            </div>
-            <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
-                <Tiktok className="h-6 w-6" />
-              </div>
-              <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
-                <Youtube className="h-6 w-6" />
-              </div>
-          </div>
+        
           <p className="text-gray-400">©{new Date().getFullYear()} - Conqueror Game Studio</p>
 
         </div>
