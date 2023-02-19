@@ -3,7 +3,7 @@ import Logo from "../../public/assets/Logo.svg";
 import Facebook from "../../public/assets/Icon/facebook.svg";
 import Twitter from "../../public/assets/Icon/twitter.svg";
 import Instagram from "../../public/assets/Icon/instagram.svg";
-import Tiktok from "../../public/assets/Icon/Tiktok.svg";
+import Tiktok from "../../public/assets/Icon/tiktok.svg";
 import Youtube from "../../public/assets/Icon/youtube.svg";
 const Footer = () => {
   return (
